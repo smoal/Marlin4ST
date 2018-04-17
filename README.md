@@ -1,10 +1,12 @@
 
-#Marlin4ST - v1.1.0
+#Marlin4ST - v1.1.0 - MPCNC Version
 ------------------
 
 This repository proposes an example firmware for the ST Microelectronics 3D printer board STEVAL-3DP001V1.    
 The Marlin4ST firmware relies on [STM32Cube](http://www.st.com/web/catalog/tools/FM147/CL1794/SC961/SS1743/LN1897?s_searchtype=reco) and integers the 3D printer algorithms from the [Marlin 1.1.0-RC7](https://github.com/MarlinFirmware/Marlin) firmware.  
-It can be used unchanged on the 3D Printer "Bicephale Mark One".  
+
+It can be used unchanged on the CNC MPCNC from www.v1engineering.com
+
 For other mechanics, you will need to update the file:  _stm32_cube\Middlewares\Third_Party\Marlin\configuration.h_  according to your configuration.
 
 ###  Hardware and Software environment
@@ -30,6 +32,8 @@ In order to recompile the program , you must do the following :
  - Run the example
 
 ###  Recent changes
+###** MPCNC ***
+First MPCNC version
 ###** version 1.1.0**
 - First version based on Marlin 1.1.0-RC7
 
